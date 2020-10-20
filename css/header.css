@@ -1,0 +1,41 @@
+header {
+    background-color: #f9f9f9;
+}
+
+.top-header {
+    text-align: center;
+    border-bottom: #007b solid 2px;
+    margin-bottom: 2px;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #007b solid 5px;
+}
+
+.sub-header li{
+    display: inline;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.sub-header a {
+    color: #000;
+    padding-right: 6px;
+}
+
+
+
+
+@media (max-width:768px){
+    .nav-bar , .log-regis {
+        display: none;
+    }
+    .menu-icon {
+        display: inline;
+    }
+}
