@@ -19,9 +19,10 @@ header {
 
 .sub-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border-bottom: #007b solid 5px;
+    background-color: #007b;
 }
 
 .sub-header li{
@@ -30,10 +31,11 @@ header {
 
 .menu-icon {
     display: none;
+    color: #fff;
 }
 
 .sub-header a {
-    color: #000;
+    color: #fff;
     padding-right: 6px;
 }
 
@@ -51,4 +53,15 @@ header {
     .menu-icon {
         display: inline;
     }
+}
+
+.log-regis button {
+    background-color: #fff ;
+    color: #007b;
+    border-radius: 5px;
+    border: none;
+}
+
+.log-regis button:hover {
+    background-color: cadetblue;
 }
