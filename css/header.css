@@ -63,5 +63,6 @@ header {
 }
 
 .log-regis button:hover {
-    background-color: cadetblue;
+    background-color: #007b;
+    color: #fff;
 }
